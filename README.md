@@ -42,11 +42,12 @@ conv1x1로 channel 수만 보간해주는 **version2** 와 같이 재설계를 �
 **version2** 의 경우 skip connection 이후의 activation map의 일부는 다음과 같다.
 ![Alt text](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/Figure_1.png?raw=true)
 
+skip connection 후 feature map 이 geometric한 정보를 잘 나타낸 것을 토대로 앞에서 구현한 모델의 long path skip connection 구조가 feature 자체를 취득하는데는 큰 문제가 없는 것으로 보인다.
+
 그러면 이 activation map 이 어떻게 생성되는지 시각화해보자.
 
 ![Alt text](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/change.png?raw=true)
 
-skip connection 후 feature map 이 geometric한 정보를 잘 나타낸 것을 토대로 앞에서 구현한 모델의 long path skip connection 구조가 feature 자체를 취득하는데는 큰 문제가 없는 것으로 보인다.
 
 앞의 skip connection 구조가 local evidence 를 더해주지만 실험적인 결과를 보면 큰 차이는 없는 듯하다. 아마 이러한 이유는 vgg16은 깊지 않기 때문에 degradation 이 크게 일어나지 않고 identity를 더해주지 않아도 크게 문제가 없기 때문이라고 생각된다. 
 

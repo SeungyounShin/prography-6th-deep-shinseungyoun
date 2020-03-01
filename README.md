@@ -25,7 +25,7 @@ M(x) = F(x) + H(x)
 | table  | version1 | version2 |
 | ------------- | ------------- |------------- |
 | accuracy  | 88.38%  | 99.03%  |
-| without skip-connection  | x  | 99.01%  |
+| w/o skip-connection  | x  | 99.01%  |
 
 
 ## Conclusion

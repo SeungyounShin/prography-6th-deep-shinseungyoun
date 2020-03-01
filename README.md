@@ -39,7 +39,7 @@ M(x) = F(x) + H(x)
 
 conv1x1로 channel 수만 보간해주는 **version2** 와 같이 재설계를 진행하였는데 이렇게 하면 중간에 downsample을 하면안됨. mnist 데이터는 28x28로 사이즈가 매우 작기 때문에 conv1을 bottleneck으로 하는 네트워크를 생성함. 이렇게 skip connection을 구현하고 avgPool을 이용해 feature의 전반적인 정보를 좀 더 작은 dimension 으로 fusion 한 후 이를 fc 를 이용해 classification 과제를 수행하는 네트워크를 구성 정확도를 99% 까지 상승시킴.
 
-**version2** 의 경우 skip connection 이후의 activation map의  다음과 같다.
+**version2** 의 경우 skip connection 이후의 activation map의 일부는 다음과 같다.
 ![Alt text](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/Figure_1.png?raw=true)
 
 

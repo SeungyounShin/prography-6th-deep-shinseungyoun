@@ -7,3 +7,4 @@
 ## Accuracy
 
 ## Reference
+Saining Xie Ross Girshick Piotr Dollar Zhuowen Tu1 Kaiming He. Aggregated Residual Transformations for Deep Neural Networks. In CVPR,2017.

@@ -21,6 +21,10 @@ M(x) = F(x) + H(x)
 
 ![Alt text](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/vgg16_skipconn_ver2.png?raw=true)
 ## Accuracy
+|\|version1|version2|
+|------|---|---|
+|accuracy|테스트2|테스트3|
+
 
 ## Conclusion
 

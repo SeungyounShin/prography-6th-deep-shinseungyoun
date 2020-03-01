@@ -35,7 +35,9 @@ M(x) = F(x) + H(x)
 
 가설을 확인하기 위해 H를 conv1x1, stride=2 로 설정했을 때 정확도가 상승함.
 
-이를 
+즉 H를 최대한 적게하고 Identity의 정보를 유지하는 방향으로 network 를 재설계함. 
+
+conv1x1로 channel 수만 보간해주는 version2 와 같이 재설계를 진행하였는데 이렇게 하면 중간에 downsample을 하면안됨. mnist 데이터는 28x28로 사이즈가 매우 작기 때문에 conv1을 bottleneck으로 하는 네트워크를 생성함. 이렇게 skip connection을 구현하고 avgPool을 이용해 feature의 전반적인 정보를 좀 더 작은 dimension 으로 fusion 한 후 이를 fc 를 이용해 classification 과제를 수행하는 네트워크를 구성 정확도를 99% 까지 상승시킴.
 
 ## Reference
 Saining Xie Ross Girshick Piotr Dollar Zhuowen Tu1 Kaiming He. Aggregated Residual Transformations for Deep Neural Networks. In CVPR,2017.

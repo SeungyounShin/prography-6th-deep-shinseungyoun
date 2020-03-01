@@ -46,6 +46,8 @@ conv1x1로 channel 수만 보간해주는 **version2** 와 같이 재설계를 �
 
 ![Alt text](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/change.png?raw=true)
 
+앞의 skip connection 구조가 local evidence 를 더해주지만 실험적인 결과를 보면 큰 차이는 없는 듯하다. 아마 이러한 이유는 vgg16은 깊지 않기 때문에 degradation 이 크게 일어나지 않고 identity를 더해주지 않아도 크게 문제가 없기 때문이라고 생각된다. 
+
 
 ## Reference
 Saining Xie Ross Girshick Piotr Dollar Zhuowen Tu1 Kaiming He. Aggregated Residual Transformations for Deep Neural Networks. In CVPR,2017.

@@ -1,6 +1,7 @@
 # prography-6th-deep-shinseungyoun
 프로그라피 6기 과제
 
+![model result](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/result.png?raw=true)
 
 ## Model
 **version1**

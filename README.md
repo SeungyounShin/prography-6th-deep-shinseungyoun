@@ -3,7 +3,7 @@
 
 
 ## Model
-
+![Alt text](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/Untitled%20Diagram%20(1).png?raw=true)
 ## Accuracy
 
 ## Reference

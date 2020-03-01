@@ -42,6 +42,10 @@ conv1x1로 channel 수만 보간해주는 **version2** 와 같이 재설계를 �
 **version2** 의 경우 skip connection 이후의 activation map의 일부는 다음과 같다.
 ![Alt text](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/Figure_1.png?raw=true)
 
+그러면 이 activation map 이 어떻게 생성되는지 시각화해보자.
+
+![Alt text](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/change.png?raw=true)
+
 
 ## Reference
 Saining Xie Ross Girshick Piotr Dollar Zhuowen Tu1 Kaiming He. Aggregated Residual Transformations for Deep Neural Networks. In CVPR,2017.

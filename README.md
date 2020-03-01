@@ -50,7 +50,7 @@ skip connection 후 feature map 이 geometric한 정보를 잘 나타낸 것을 
 ![Alt text](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/change.png?raw=true)
 
 
-앞의 skip connection 구조가 local evidence 를 더해주지만 실험적인 결과를 보면 큰 차이는 없는 듯하다. 아마 이러한 이유는 vgg16은 깊지 않기 때문에 degradation 이 크게 일어나지 않고 identity를 더해주지 않아도 크게 문제가 없기 때문이라고 생각된다. 
+앞의 skip connection 구조가 local evidence 를 더해주지만 실험적인 결과를 보면 큰 차이는 없는 듯하다. 아마 이러한 이유는 vgg16은 깊지 않기 때문에 degradation 이 크게 일어나지 않고 identity를 더해주지 않아도 크게 문제가 없기 때문이라고 생각된다. 하지만, accuracy 표에서 skip connection 을 이용한 구조가 미세한 정도로 정확도가 높은 것으로 보아 skip connection 이 기존 deep 한 구조의 훈련을 원활하게 하는 것보다 local evidence를 highlight 하는 효과를 조금더 적용하지 않나 생각된다.
 
 
 ## Reference

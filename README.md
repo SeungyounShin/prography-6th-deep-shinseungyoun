@@ -30,7 +30,7 @@ M(x) = F(x) + H(x)
 
 ## Conclusion
 
-**version1** 구조에서 M(x) = F(x) + H(x); H(x)의 커널사이즈를 7로 했을 때 accuracy가 떨어지는 현상이 발생하였다.
+**version1** 구조에서 M(x) = F(x) + H(x);[1] H(x)의 커널사이즈를 7로 했을 때 accuracy가 떨어지는 현상이 발생하였다.
 
 즉, H(x)의 residual 정보는 backprogation 할 때 weight의 정보손실을 방지하기 위한 역할이 큼으로 H(x)를 deep 하고 complex 하게 가져갈 수록 훈련에서 불균형을 가져오게된다는 가설을 세웠다.
 
@@ -54,4 +54,6 @@ skip connection 후 feature map 이 geometric한 정보를 잘 나타낸 것을 
 
 
 ## Reference
-Saining Xie Ross Girshick Piotr Dollar Zhuowen Tu1 Kaiming He. Aggregated Residual Transformations for Deep Neural Networks. In CVPR,2017.
+[0] Saining Xie Ross Girshick Piotr Dollar Zhuowen Tu1 Kaiming He. Aggregated Residual Transformations for Deep Neural Networks. In CVPR,2017.
+
+[1] Kaiming He, Xiangyu Zhang, Shaoqing Ren, Jian Sun. Deep Residual Learning for Image Recognition. In CVPR,2016.

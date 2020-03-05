@@ -4,10 +4,11 @@
 ![model result](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/result.png?raw=true)
 
 ## Quick Start
-1. download weight for version 2 model ([weight](https://drive.google.com/file/d/1QcuQFdd0oSvAjSO4ZiS7FZ187vY7tVWT/view?usp=sharing))
-2. clone the repo.
-3. locate a weight file in ckpt folder
-4. run train.py , test.py
+1. version 2 model 가중치 다운로드 ([weight](https://drive.google.com/file/d/1QcuQFdd0oSvAjSO4ZiS7FZ187vY7tVWT/view?usp=sharing))
+2. 저장소 클론
+3. 가중치 파일을 ckpt 폴더 안에 위치 시킵니다.
+4. MNIST_DATASET 안에 MNIST 데이터를 위치 시킵니다. (별도 다운로드 필요)
+5. run test.py (cuda로 돌리려면 test.py를 수정합니다)
 
 ## Model
 **version1**

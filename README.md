@@ -12,6 +12,7 @@ skip connection 시 pooling으로 줄어든 feature와 indentity간의 dimension
 ![Alt text](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/vgg16_skipconn_ver1.png?raw=true)
 
 **version2**
+[weight(https://drive.google.com/file/d/1QcuQFdd0oSvAjSO4ZiS7FZ187vY7tVWT/view?usp=sharing)
 
 mnist데이터는 매우 작은편이기 때문에 굳이 큰 bottleneck 구조를 가져갈 필요가 없다고 판단.
 

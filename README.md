@@ -4,7 +4,7 @@
 ![model result](https://github.com/SeungyounShin/prography-6th-deep-shinseungyoun/blob/master/img/result.png?raw=true)
 
 ## Quick Start
-1. download weight for version 2 model (below)
+1. download weight for version 2 model ([weight](https://drive.google.com/file/d/1QcuQFdd0oSvAjSO4ZiS7FZ187vY7tVWT/view?usp=sharing))
 2. clone the repo.
 3. locate a weight file in ckpt folder
 4. run train.py , test.py
